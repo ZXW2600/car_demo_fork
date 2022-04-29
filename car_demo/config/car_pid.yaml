@@ -1,0 +1,43 @@
+!!python/object/new:dynamic_reconfigure.encoding.Config
+dictitems:
+  drive_d: 10.0
+  drive_i: 0.001
+  drive_imax: 1.0
+  drive_imin: 0.0
+  drive_init_velocity: 0.0
+  drive_max_effort: 100000.0
+  drive_p: 2000.0
+  groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+    dictitems:
+      drive_d: 10.0
+      drive_i: 0.001
+      drive_imax: 1.0
+      drive_imin: 0.0
+      drive_init_velocity: 0.0
+      drive_max_effort: 100000.0
+      drive_p: 2000.0
+      groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      id: 0
+      name: Default
+      parameters: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      parent: 0
+      state: true
+      steer_d: 200.0
+      steer_i: 0.001
+      steer_imax: 1.0
+      steer_imin: 0.0
+      steer_init_angle: 30.0
+      steer_max_effort: 10000.0
+      steer_p: 1000.0
+      type: ''
+    state: []
+  steer_d: 200.0
+  steer_i: 0.001
+  steer_imax: 1.0
+  steer_imin: 0.0
+  steer_init_angle: 30.0
+  steer_max_effort: 10000.0
+  steer_p: 1000.0
+state: []
